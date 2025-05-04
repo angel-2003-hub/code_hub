@@ -1,10 +1,10 @@
-'''#program 1
+#program 1
 def demo(a):
     return (pow(a,3))
 a=int(input("Enter a number:"))
 
 result=demo(a)
-print(result)'''
+print(result)
 
 
 #program 2
@@ -15,7 +15,7 @@ while True:
     else:
         print(pow(num,3))
 
-'''#program 3
+#program 3
 for i in range(1,21):
     if i%2!=0:
         continue
@@ -121,5 +121,5 @@ num_list=[10,20,30,40,50]
 num_list.append(60)
 print(num_list)
 print(tuple(num_list))
-print(set(num_list))'''
+print(set(num_list))
 
